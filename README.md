@@ -1,11 +1,13 @@
 # Android_v1
-. It's intention is to help Icecream lovers find the most delicious and popular icecreams available and where to find them.
+Gym-Flex App, an android app. This is the first version of it. 
+## Project Description
+Gym-Flex App was create with the purpose of helping people to easily get the information about exercises that can improve their flexibility in order to avoid injuries. 
 ## Prerequisites
 * Install android studio, extract it and open it
 * in the bin folder, right click and open it in the terminal
 * type ./studio.sh
 ## Author
-**Uwimana Rachel**
+**Umutesi Grace**
 ## Technologies used
 * JAVA
 ## screenshots
