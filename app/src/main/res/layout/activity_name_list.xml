@@ -6,6 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.gym_flex.nameListActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView2"
+        android:src="@drawable/yoga4"
+        android:scaleType="centerCrop" />
+
     <TextView
         android:text="CHOOSE FROM THE FOLLOWING OPTIONS"
         android:layout_width="wrap_content"
@@ -14,6 +21,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10sp"
+        android:textColor="@color/colorBlue"
         android:textSize="15dp" />
     <GridView
         android:layout_width="match_parent"
