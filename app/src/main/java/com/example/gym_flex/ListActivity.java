@@ -19,11 +19,11 @@ public class ListActivity extends AppCompatActivity {
     @BindView(R.id.listView)ListView mAllList;
 
 
-    private String[] sportNames = new String[] {"Mi Mero Mole", "Mother's Bistro",
-            "Life of Pie", "Screen Door", "Luc Lac", "Sweet Basil",
-            "Slappy Cakes", "Equinox", "Miss Delta's", "Andina",
-            "Lardo", "Portland City Grill", "Fat Head's Brewery",
-            "Chipotle", "Subway"};
+    private String[] sportNames = new String[] {"Downward Dog", "Child Pose",
+            "Easy Pose", "Bridge", "Warrior 1", "Warrior 2",
+            "Trikonasana", "Chaturanga", "Chair", "Tree",
+            "Navasana", "Bakasana", "Arm Balance",
+            "Savasana", "King Dancer"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
