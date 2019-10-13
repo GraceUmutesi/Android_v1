@@ -5,7 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.GridView;
 
+import butterknife.BindView;
+
 public class nameListActivity extends AppCompatActivity {
+    @BindView(R.id.nextButton) Button mFindnextButtonButton;
+    @BindView(R.id.programText) EditText mprogramTextEditText;
     GridView gridView;
     String[] details = new String[]{
             "Program","Start","End","Beginner","January","April","Medium","May","August","Pro","September","December"
