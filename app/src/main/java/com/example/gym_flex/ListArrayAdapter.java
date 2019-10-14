@@ -3,7 +3,7 @@ package com.example.gym_flex;
 import android.content.Context;
 import android.widget.ArrayAdapter;
 
-import androidx.annotation.Nullable;
+
 
 public class ListArrayAdapter extends ArrayAdapter{
     private Context mContext;

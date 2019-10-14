@@ -34,6 +34,7 @@ public class nameListActivity extends AppCompatActivity {
             public void onClick(View v){
                 String program = mProgramName.getText().toString();
                 Intent intent = new Intent(nameListActivity.this, ListActivity.class);
+                intent.putExtra("program",program);
                 startActivity(intent);
 
             }
