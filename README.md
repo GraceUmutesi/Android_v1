@@ -10,9 +10,6 @@ The App is for helping people to improve their flexibility to avoid injuries.You
 **Umutesi Grace**
 ## Technologies used
 * JAVA
-## screenshots
-![Home](src/main/resources/drawable/)
-![gallery](src/main/resources/drawable/)
 ## License
 MIT License
 
