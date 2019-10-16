@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 
 public class ListActivity extends AppCompatActivity {
-//    @BindView(R.id.programText)TextView mProgramTextView;
+
     private ListView mAllList ;
     private TextView mProgramTextView;
     private String[] sportNames = new String[] {"Downward Dog", "Child Pose",
@@ -26,7 +26,7 @@ public class ListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
-//        ButterKnife.bind(ListActivity.this);
+
         ListView mAllList=(ListView)findViewById(R.id.listView);
         TextView mProgramTextView =(TextView)findViewById(R.id.uniqueText);
         ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, sportNames);
